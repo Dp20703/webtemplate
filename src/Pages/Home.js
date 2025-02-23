@@ -5,13 +5,9 @@ export default function Home() {
             <header id="site-header" class="fixed-top">
                 <div class="container">
                     <nav class="navbar navbar-expand-lg navbar-dark stroke">
-                        <h1><a class="navbar-brand" href="index.html">
+                        <h1><Link class="navbar-brand" to="/">
                             Web service
-                        </a></h1>
-                        {/* <!-- if logo is image enable this */}
-                        {/* <a class="navbar-brand" href="#index.html">
-                            <img src="image-path" alt="Your logo" title="Your logo" style={{height:"35px;"}} />
-                        </a>  */}
+                        </Link></h1>
                         <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
                             data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -23,16 +19,16 @@ export default function Home() {
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <ul class="navbar-nav ml-auto mr-5">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    <Link class="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
                                 </li>
                                 <li class="nav-item @@about__active">
-                                    <a class="nav-link" href="about.html">About</a>
+                                    <Link class="nav-link" to="/about">About</Link>
                                 </li>
                                 <li class="nav-item @@services__active">
-                                    <a class="nav-link" href="services.html">Services</a>
+                                    <Link class="nav-link" to="/services">Services</Link>
                                 </li>
                                 <li class="nav-item @@contact__active">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <Link class="nav-link" to="/contact">Contact</Link>
                                 </li>
                                 <nav class="ml-lg-3">
                                     <div class="search-bar">
@@ -72,7 +68,7 @@ export default function Home() {
                         <div class="banner-info-grid mt-lg-5">
                             <h3 class="mb-4">Stylish Creative Designs.</h3>
                             <section id="bottom" class="demo">
-                                <a href="#bottom"><span></span>Scroll</a>
+                                <Link to="/#bottom"><span></span>Scroll</Link>
                             </section>
                         </div>
                     </div>
@@ -86,21 +82,21 @@ export default function Home() {
                         <div class="col-lg-4 col-md-6 grids-feature">
                             <div class="area-box">
                                 <span class="title-small mb-2">01. Video productions</span>
-                                <h4><a href="#feature" class="title-head">Stunning video sequence and impressing ideas are all here.</a></h4>
+                                <h4><Link to="/#feature" class="title-head">Stunning video sequence and impressing ideas are all here.</Link></h4>
                                 <p class="">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-5">
                             <div class="area-box">
                                 <span class="title-small mb-2">02. Branding Design</span>
-                                <h4><a href="#feature" class="title-head">Great reflection of your brand be achieved by top designers.</a></h4>
+                                <h4><Link to="/#feature" class="title-head">Great reflection of your brand be achieved by top designers.</Link></h4>
                                 <p class="">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-5">
                             <div class="area-box">
                                 <span class="title-small mb-2">03. Graphic Design</span>
-                                <h4><a href="#feature" class="title-head">Creating gorgeous graphic design meeting clients needs.</a></h4>
+                                <h4><Link to="/#feature" class="title-head">Creating gorgeous graphic design meeting clients needs.</Link></h4>
                                 <p class="">Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci dolor sit et amet.</p>
                             </div>
                         </div>
@@ -117,7 +113,7 @@ export default function Home() {
                                 <figure>
                                     <img src="assets/images/p1.jpg" alt="product" class="img-fluid" />
                                     <div class="img-info">
-                                        <a href="#url" class="img-title">UI experience</a>
+                                        <Link to="/#url" class="img-title">UI experience</Link>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quia.</p>
                                     </div>
                                 </figure>
@@ -126,7 +122,7 @@ export default function Home() {
                                 <figure>
                                     <img src="assets/images/p2.jpg" alt="product" class="img-fluid" />
                                     <div class="img-info">
-                                        <a href="#url" class="img-title">Wordpress</a>
+                                        <Link to="/#url" class="img-title">Wordpress</Link>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quia.</p>
                                     </div>
                                 </figure>
@@ -135,7 +131,7 @@ export default function Home() {
                                 <figure>
                                     <img src="assets/images/p3.jpg" alt="product" class="img-fluid" />
                                     <div class="img-info">
-                                        <a href="#url" class="img-title">Ecommerce</a>
+                                        <Link to="/#url" class="img-title">Ecommerce</Link>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quia.</p>
                                     </div>
                                 </figure>
@@ -144,7 +140,7 @@ export default function Home() {
                                 <figure>
                                     <img src="assets/images/p4.jpg" alt="product" class="img-fluid" />
                                     <div class="img-info">
-                                        <a href="#url" class="img-title">Headphones</a>
+                                        <Link to="/#url" class="img-title">Headphones</Link>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quia.</p>
                                     </div>
                                 </figure>
@@ -153,7 +149,7 @@ export default function Home() {
                                 <figure>
                                     <img src="assets/images/p5.jpg" alt="product" class="img-fluid" />
                                     <div class="img-info">
-                                        <a href="#url" class="img-title">Mobile app</a>
+                                        <Link to="/#url" class="img-title">Mobile app</Link>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quia.</p>
                                     </div>
                                 </figure>
@@ -162,7 +158,7 @@ export default function Home() {
                                 <figure>
                                     <img src="assets/images/p6.jpg" alt="product" class="img-fluid" />
                                     <div class="img-info">
-                                        <a href="#url" class="img-title">Modern Ideas</a>
+                                        <Link to="/#url" class="img-title">Modern Ideas</Link>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quia.</p>
                                     </div>
                                 </figure>
@@ -171,7 +167,7 @@ export default function Home() {
                                 <figure>
                                     <img src="assets/images/p8.jpg" alt="product" class="img-fluid" />
                                     <div class="img-info">
-                                        <a href="#url" class="img-title">Creativity</a>
+                                        <Link to="/#url" class="img-title">Creativity</Link>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quia.</p>
                                     </div>
                                 </figure>
@@ -180,7 +176,7 @@ export default function Home() {
                                 <figure>
                                     <img src="assets/images/p7.jpg" alt="product" class="img-fluid" />
                                     <div class="img-info">
-                                        <a href="#url" class="img-title">Fashion design</a>
+                                        <Link to="/#url" class="img-title">Fashion design</Link>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quia.</p>
                                     </div>
                                 </figure>
@@ -197,7 +193,7 @@ export default function Home() {
                             <div class="area-box">
                                 <span class="fa fa-retweet mt-0"></span>
                                 <div class="area-box-info">
-                                    <h4><a href="#feature" class="title-head">Social Media Strategy</a></h4>
+                                    <h4><Link to="/#feature" class="title-head">Social Media Strategy</Link></h4>
                                     <p class="mt-lg-3 mt-2">Vivamus a ligula quam tesque et libero justo, ultrices in. Ut eu leo non. Duis
                                         sed et dolor sit amet.</p>
                                 </div>
@@ -207,7 +203,7 @@ export default function Home() {
                             <div class="area-box">
                                 <span class="fa fa-clock-o mt-0"></span>
                                 <div class="area-box-info">
-                                    <h4><a href="#feature" class="title-head">Branding Strategy</a></h4>
+                                    <h4><Link to="/#feature" class="title-head">Branding Strategy</Link></h4>
                                     <p class="mt-lg-3 mt-2">Vivamus a ligula quam tesque et libero justo, ultrices in. Ut eu leo non. Duis
                                         sed et dolor sit amet.</p>
                                 </div>
@@ -217,7 +213,7 @@ export default function Home() {
                             <div class="area-box">
                                 <span class="fa fa-line-chart mt-0"></span>
                                 <div class="area-box-info">
-                                    <h4><a href="#feature" class="title-head">UI/UX Design</a></h4>
+                                    <h4><Link to="/#feature" class="title-head">UI/UX Design</Link></h4>
                                     <p class="mt-lg-3 mt-2">Vivamus a ligula quam tesque et libero justo, ultrices in. Ut eu leo non. Duis
                                         sed et dolor sit amet.</p>
                                 </div>
@@ -227,7 +223,7 @@ export default function Home() {
                             <div class="area-box">
                                 <span class="fa fa-trash-o mt-0"></span>
                                 <div class="area-box-info">
-                                    <h4><a href="#feature" class="title-head">Digital Product Strategy</a></h4>
+                                    <h4><Link to="/#feature" class="title-head">Digital Product Strategy</Link></h4>
                                     <p class="mt-lg-3 mt-2">Vivamus a ligula quam tesque et libero justo, ultrices in. Ut eu leo non. Duis
                                         sed et dolor sit amet.</p>
                                 </div>
@@ -237,7 +233,7 @@ export default function Home() {
                             <div class="area-box">
                                 <span class="fa fa-video-camera mt-0"></span>
                                 <div class="area-box-info">
-                                    <h4><a href="#feature" class="title-head">Web Hosting Service</a></h4>
+                                    <h4><Link to="/#feature" class="title-head">Web Hosting Service</Link></h4>
                                     <p class="mt-lg-3 mt-2">Vivamus a ligula quam tesque et libero justo, ultrices in. Ut eu leo non. Duis
                                         sed et dolor sit amet.</p>
                                 </div>
@@ -247,7 +243,7 @@ export default function Home() {
                             <div class="area-box">
                                 <span class="fa fa-search-plus mt-0"></span>
                                 <div class="area-box-info">
-                                    <h4><a href="#feature" class="title-head">SEO Services</a></h4>
+                                    <h4><Link to="/#feature" class="title-head">SEO Services</Link></h4>
                                     <p class="mt-lg-3 mt-2">Vivamus a ligula quam tesque et libero justo, ultrices in. Ut eu leo non. Duis
                                         sed et dolor sit amet.</p>
                                 </div>
@@ -493,48 +489,48 @@ export default function Home() {
                         <div class="row footer-top-29">
                             <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
                                 <div class="footer-logo mb-4">
-                                    <a class="navbar-brand" href="index.html">
-                                        Web service</a>
+                                    <Link class="navbar-brand" to="/">
+                                        Web service</Link>
                                 </div>
                                 <p>We are real pros at digital and web design. We work for our clients to provide them with the best service
                                     and products. We value every project as we get invaluable experience.</p>
                                 <div class="main-social-footer-29 mt-4">
-                                    <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-                                    <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
-                                    <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
-                                    <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                                    <Link to="/#facebook" class="facebook"><span class="fa fa-facebook"></span></Link>
+                                    <Link to="/#twitter" class="twitter"><span class="fa fa-twitter"></span></Link>
+                                    <Link to="/#instagram" class="instagram"><span class="fa fa-instagram"></span></Link>
+                                    <Link to="/#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></Link>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
 
                                 <ul>
                                     <h6 class="footer-title-29">Useful Links</h6>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="#blog"> Blog posts</a></li>
-                                    <li><a href="#pricing"> Pricing plans</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="contact.html">Contact us</a></li>
+                                    <li><Link to="/about">About Us</Link></li>
+                                    <li><Link to="/#blog"> Blog posts</Link></li>
+                                    <li><Link to="/#pricing"> Pricing plans</Link></li>
+                                    <li><Link to="/services">Services</Link></li>
+                                    <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
                             </div>
                             <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5">
                                 <h6 class="footer-title-29">Resources</h6>
                                 <ul>
-                                    <li><a href="#traning">Training</a></li>
-                                    <li><a href="#marketplace">Marketplace</a></li>
-                                    <li><a href="#experts">Our Experts</a></li>
-                                    <li><a href="#platform">Platform</a></li>
-                                    <li><a href="#customers"> Customers</a></li>
+                                    <li><Link to="/#traning">Training</Link></li>
+                                    <li><Link to="/#marketplace">Marketplace</Link></li>
+                                    <li><Link to="/#experts">Our Experts</Link></li>
+                                    <li><Link to="/#platform">Platform</Link></li>
+                                    <li><Link to="/#customers"> Customers</Link></li>
                                 </ul>
 
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5">
                                 <h6 class="footer-title-29">Instagram posts</h6>
                                 <div class="post1">
-                                    <a href="#url" class="post-title">Practice Safe Design. Always Use...</a>
+                                    <Link to="/#url" class="post-title">Practice Safe Design. Always Use...</Link>
                                     <p>We work for our clients to provide them with the best service</p>
                                 </div>
                                 <div class="post1 mt-4">
-                                    <a href="#url" class="post-title">How to Start when You... </a>
+                                    <Link to="/#url" class="post-title">How to Start when You... </Link>
                                     <p>We work for our clients to provide them with the best service</p>
                                 </div>
                             </div>
@@ -544,9 +540,9 @@ export default function Home() {
                 {/* <!-- copyright --> */}
                 <section class="w3l-copyright text-center">
                     <div class="container">
-                        <p class="copy-footer-29">© 2020 Web Service. All rights reserved. Design by <a href="https://w3layouts.com/"
+                        <p class="copy-footer-29">© 2020 Web Service. All rights reserved. Design by <Link to="/https://w3layouts.com/"
                             target="_blank">
-                            W3layouts</a></p>
+                            W3layouts</Link></p>
                     </div>
 
                     {/* <!-- move top --> */}
